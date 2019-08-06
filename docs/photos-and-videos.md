@@ -176,7 +176,7 @@ Environment.setBackgroundVideo('myplayer');
 VideoModule.resume('myplayer'); // Start playback
 ```
 
-The `VideoModule` provides a video player wrapper to support playing video on React side. Calling `const player = createPlayer(handle?: string)`, will return a `VideoPlayerInstance`, and `VideoPlayerInstance` provides following methods:
+The `VideoModule` provides a video player wrapper to support playing video on React side. Calling `const player = createPlayer(handle: string)`, will return a `VideoPlayerInstance`, and `VideoPlayerInstance` provides following methods:
  - `play(options: VideoOptions)` - begin playback of the video. The options object can take the following keys:
     - `source` - The video source.
     - `startPosition`: the video will seek to this position when start playing
